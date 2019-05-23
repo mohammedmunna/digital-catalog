@@ -6,11 +6,10 @@ import headerStyles from "./header.module.scss"
 const Header = () => {
   return (
     <header className={headerStyles.header}>
-      <h1>
-        <Link className={headerStyles.title} to="/">
-          Welcome to Digital Catalog
-        </Link>
-      </h1>
+      <Link className={headerStyles.title} to="/">
+        Digital Catalog
+      </Link>
+
       <nav>
         <ul className={headerStyles.navList}>
           <li>

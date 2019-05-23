@@ -61,9 +61,9 @@ const ShopItem = props => {
   return (
     <Layout>
       <Head title={props.data.apiData.name} />
-      <div>
+      <h3>{props.data.apiData.name}</h3>
+      <div className="container">
         <div>
-          <h1>Name: {props.data.apiData.name}</h1>
           <p>
             <b>Version:</b> {props.data.apiData.version}
           </p>

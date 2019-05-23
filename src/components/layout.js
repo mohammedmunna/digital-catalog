@@ -2,8 +2,9 @@ import React from "react"
 
 import Header from "./header"
 import Footer from "./footer"
+import "../styles/styles.css"
 import layoutStyles from "./layout.module.scss"
-import "./bootstrap.min.css"
+import "bootstrap/dist/css/bootstrap.min.css"
 
 const Layout = props => {
   return (

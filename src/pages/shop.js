@@ -40,8 +40,8 @@ const ShopPage = () => {
   return (
     <Layout>
       <Head title="Shop" />
+      <h3>Here are some available products:</h3>
       <div className="container">
-        <h3>Here are some available products:</h3>
         <div className="row">
           {data.allApiData.edges.map(edge => {
             if (edge.node.name) {

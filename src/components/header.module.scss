@@ -1,17 +1,28 @@
 .header {
-    padding: 1rem 0 3rem;
+    padding: 1rem 0rem 2.5rem 0rem;
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
 .title {
     color: #000000;
-    font-size: 3rem;
+    font-size: 1.5rem;
     text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 0rem;
 }
 
 .nav-list {
     display: flex;
     list-style-type: none;
     margin: 0;
+    height: auto;
 }
 
 .nav-item {
@@ -19,6 +30,8 @@
     font-size: 1.2rem;
     margin-right: 1.3rem;
     text-decoration: none;
+    font-weight: bold;
+    transition: var(--mainTransition);
 }
 
 .nav-item:hover {
